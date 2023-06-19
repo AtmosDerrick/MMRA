@@ -1,0 +1,26 @@
+.animate-expandBorder {
+  overflow: hidden;
+}
+
+.animate-expandBorder li {
+  display: inline-block;
+  position: relative;
+}
+
+.animate-expandBorder:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: blue;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform 1s ease;
+}
+
+.animate-expandBorder:hover:before {
+  transform: scaleX(1);
+  width: 50px;
+}
