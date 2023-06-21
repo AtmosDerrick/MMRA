@@ -53,7 +53,7 @@ function NavBar() {
               to="/downloads"
               className="md:flex items-center md:gap-2  font-medium">
               <div className="hidden md:flex">Download</div>
-              <div>
+              <div className="">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"

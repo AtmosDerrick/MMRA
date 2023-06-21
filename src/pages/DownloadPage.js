@@ -7,12 +7,10 @@ import windowsStore from "../images/windowsstore.png";
 function DownloadPage() {
   return (
     <div className="h-auto  pt-16 w-full md :w-3/4 mx-auto mb-8">
-      <div className="md:flex md:justify-between h-auto md:h-[40vh] items-center mt-12 md:mt-0">
+      <div className="px-4  md:px-0 md:flex md:justify-between h-auto md:h-[40vh] items-center mt-12 md:mt-0">
         <div className="text-3xl font-bold text-primary md:flex md:justify-between text-justify uppercase w-full ">
           <div> Download</div>
-          <div className="bg-primary text-white  py-1 rounded-md px-2">
-            MMRA
-          </div>
+          <div className=" text-primary  py-1 rounded-md px-2">MMRA</div>
         </div>
 
         <div className="w-full text-left text-base hidden md:inline-block">
@@ -27,7 +25,7 @@ function DownloadPage() {
         </div>
       </div>
 
-      <div className="w-full mx-auto grid grid-cols-1 md:grid-cols-2 md:gap-4 mt-8">
+      <div className="w-full md:mx-auto px-4 md:px-0 grid grid-cols-1 md:grid-cols-2 md:gap-4 mt-8">
         <div className=" h-[50vh] w-full md:w-3/4 bg-gray-900 rounded-2xl py-2 flex cursor-pointer text-gray-100 hover:text-gray-900  hover:bg-blue-100 transition-all duration-500 ">
           <div>
             <div className="base italic text-center ">Mobile and Tablets</div>

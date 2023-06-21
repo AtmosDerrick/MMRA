@@ -9,7 +9,7 @@ function Features() {
       <div className="grid md:grid-cols-2 lg:grid-cols-4 w-full mt-4 gap-4 text-primary ">
         <div className="bg-blue-100 hover:cursor-pointer hover:shadow-md text-center font-bold  rounded-2xl text-2xl uppercase h-[10rem] flex items-center p-4 justify-center">
           <div>
-            <span>
+            <span className="px-2">
               <i class="fa-solid fa-scale-balanced"></i>
             </span>
             Acts
@@ -22,7 +22,7 @@ function Features() {
         </div>
         <div className="bg-blue-100 hover:cursor-pointer hover:shadow-md text-center font-bold tracking-wider rounded-2xl text-2xl uppercase h-[10rem] flex items-center p-4 justify-center">
           <div>
-            <span>
+            <span className="px-2">
               <i class="fa-solid fa-lightbulb"></i>
             </span>
             Tips
@@ -35,7 +35,7 @@ function Features() {
         </div>
         <div className="bg-blue-100 hover:cursor-pointer hover:shadow-md text-center font-bold tracking-wider rounded-2xl text-2xl uppercase h-[10rem] flex items-center p-4 justify-center">
           <div>
-            <span>
+            <span className="px-2">
               <i class="fa-solid fa-newspaper"></i>
             </span>
             News
@@ -48,7 +48,7 @@ function Features() {
         </div>
         <div className="bg-blue-100 hover:cursor-pointer hover:shadow-md text-center font-bold tracking-wider rounded-2xl text-2xl uppercase h-[10rem] flex items-center p-4 justify-center">
           <div>
-            <span>
+            <span className="px-2">
               <i class="fa-solid fa-bookmark"></i>
             </span>
             Bookmarks

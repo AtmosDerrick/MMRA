@@ -26,8 +26,8 @@ function Footer() {
           </a>
         </div>
 
-        <div className="mt-4 md:mt-0 md:w-1/2 flex justify-center md:justify-end">
-          <div className="bg-gray-100 px-4 py-2 mx-4  border-2 border-gray-200 hover:bg-primary text-primary hover:text-white transition-all duration-500">
+        <div className=" mt-4 md:mt-0 md:w-1/2 flex justify-center md:justify-end">
+          <div className="w-full bg-gray-100 px-4 py-2 mx-4  border-2 border-gray-200 hover:bg-primary text-primary hover:text-white transition-all duration-500">
             <Link
               to="/downloads"
               className="text-xl font-semibold  flex justify-center text-center w-full  gap-2">
