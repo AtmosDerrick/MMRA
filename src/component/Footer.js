@@ -6,9 +6,9 @@ import logo from "../images/logo.png";
 
 function Footer() {
   return (
-    <div className="h-[60vh] bg-primary px-4">
-      <div className="w-full h-[50vh]   grid grid-cols-3 py-2 md:gap-2 lg:gap-8 items-center">
-        <div className="md:w-1/2 lg:w-3/4 mx-auto flex justify-center">
+    <div className="h-auto bg-primary px-4">
+      <div className="w-full h-auto  grid md:grid-cols-3 py-2 md:gap-2 lg:gap-8 items-center">
+        <div className="w-1/4 md:w-1/2 lg:w-3/4 mx-auto flex justify-center">
           <img src={logo} alt="logo" className="w-3/4" />
         </div>
         <div className="text-left md:w-full">
@@ -26,8 +26,8 @@ function Footer() {
           </a>
         </div>
 
-        <div className="">
-          <div className="bg-gray-100 px-8 py-4 mx-4  border-2 border-gray-200 hover:bg-primary text-primary hover:text-white transition-all duration-500">
+        <div className="mt-4 md:mt-0 md:w-1/2 flex justify-center md:justify-end">
+          <div className="bg-gray-100 px-4 py-2 mx-4  border-2 border-gray-200 hover:bg-primary text-primary hover:text-white transition-all duration-500">
             <Link
               to="/downloads"
               className="text-xl font-semibold  flex justify-center text-center w-full  gap-2">

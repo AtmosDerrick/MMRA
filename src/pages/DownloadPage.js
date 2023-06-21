@@ -6,16 +6,16 @@ import windowsStore from "../images/windowsstore.png";
 
 function DownloadPage() {
   return (
-    <div className="h-auto  pt-16 w-3/4 mx-auto mb-8">
-      <div className="flex justify-between h-[40vh] items-center">
-        <div className="text-3xl font-bold text-primary text-justify uppercase w-full">
-          Download{" "}
-          <span className="bg-primary text-white px-4 py-1 rounded-md">
+    <div className="h-auto  pt-16 w-full md :w-3/4 mx-auto mb-8">
+      <div className="md:flex md:justify-between h-auto md:h-[40vh] items-center mt-12 md:mt-0">
+        <div className="text-3xl font-bold text-primary md:flex md:justify-between text-justify uppercase w-full ">
+          <div> Download</div>
+          <div className="bg-primary text-white  py-1 rounded-md px-2">
             MMRA
-          </span>
+          </div>
         </div>
 
-        <div className="w-full text-left text-base">
+        <div className="w-full text-left text-base hidden md:inline-block">
           <div className="font-medium text-xl">
             Learn the laws governing cyber Security And Data Protection,
             <br></br>
@@ -27,13 +27,14 @@ function DownloadPage() {
         </div>
       </div>
 
-      <div className="w-full mx-auto grid grid-cols-2 gap-4 mt-8">
-        <div className=" h-[50vh] w-3/4 bg-gray-900 rounded-2xl py-2 flex cursor-pointer text-gray-100 hover:text-gray-900  hover:bg-blue-100 transition-all duration-500 ">
+      <div className="w-full mx-auto grid grid-cols-1 md:grid-cols-2 md:gap-4 mt-8">
+        <div className=" h-[50vh] w-full md:w-3/4 bg-gray-900 rounded-2xl py-2 flex cursor-pointer text-gray-100 hover:text-gray-900  hover:bg-blue-100 transition-all duration-500 ">
           <div>
-            {" "}
-            <div className="base italic ">Mobile and Tablets</div>
-            <div className="mt-6 font-semibold text-5xl ">Android</div>
-            <div className="text-sm px-2">
+            <div className="base italic text-center ">Mobile and Tablets</div>
+            <div className="mt-6 font-semibold text-5xl text-center">
+              Android
+            </div>
+            <div className="text-sm px-2 text-center">
               Minimum Requirements (Version 2.23.7.14) Android OS 4.1 or above
             </div>
             <div className=" flex justify-center w-full mt-12">
@@ -42,12 +43,12 @@ function DownloadPage() {
           </div>
         </div>
 
-        <div className="  h-[50vh] w-3/4 bg-gray-900 rounded-2xl py-2 flex  cursor-pointer text-gray-100 hover:text-gray-900 hover:bg-blue-100 transition-all duration-500  ">
+        <div className="mt-8 md:mt-0  h-[50vh] w-full md:w-3/4 bg-gray-900 rounded-2xl py-2 flex  cursor-pointer text-gray-100 hover:text-gray-900 hover:bg-blue-100 transition-all duration-500  ">
           <div>
             {" "}
-            <div className="base italic ">Mobile</div>
-            <div className="mt-6 font-semibold text-5xl ">iOS</div>
-            <div className="text-sm px-2 ">
+            <div className="base italic text-center ">Mobile</div>
+            <div className="mt-6 font-semibold text-5xl text-center ">iOS</div>
+            <div className="text-sm px-2 text-center ">
               Minimum Requirements (Version 22.13.74) Requires iOS 12.0 or newer
             </div>
             <div className=" flex justify-center w-full mt-12">

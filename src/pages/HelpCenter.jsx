@@ -2,7 +2,7 @@ import React from "react";
 
 function HelpCenter() {
   return (
-    <div className="w-3/4 mx-auto h-auto text-lg pt-24 text-left">
+    <div className="w-full px-2 md:px-0 md:w-3/4 mx-auto h-auto text-lg pt-24 text-left">
       <div>
         <h3 className="text-xl font-semibold uppercase py-2 text-primary ">
           Ad est est ad ex voluptate.

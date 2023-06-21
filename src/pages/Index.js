@@ -33,7 +33,7 @@ function Index() {
           <Carousel
             swipeable={true}
             draggable={true}
-            showDots={true}
+            showDots={false}
             responsive={responsive}
             slidesToSlide={deviceType !== "mobile" ? 1 : 1}
             infinite={true}
@@ -48,47 +48,47 @@ function Index() {
             dotListClass="custom-dot-list-style"
             itemClass="carousel-item padding-40px"
             className="relative">
-            <div className="">
-              <div className=" w-full  ml-8  flex items-center h-[80vh] absolute">
+            <div className="pt-16 md:pt-12 md:py-0">
+              <div className=" w-full  ml-8  flex items-center h-[30vh] md:h-[80vh] absolute">
                 <div className="grid grid-cols-2">
-                  <div className=" z-50 text-white font-serif md:text-4xl lg:text-5xl font-bold drop-shadow-md text-left ">
-                    <p className="tracking-wider leading-relaxed">
+                  <div className=" z-50 text-white  text-base md:text-4xl lg:text-5xl font-bold drop-shadow-md text-left ">
+                    <p className="tracking-wide md:tracking-wider leading-relaxed">
                       Comprehensive Cybersecurity and Data Protection Solutions
                     </p>
                   </div>
                 </div>
               </div>
-              <div className="md:h-[80vh] lg:h-[100vh] absolute w-full z-40 bg-black bg-opacity-60"></div>
+              <div className="h-[40vh] md:h-[80vh] lg:h-[100vh] absolute w-full z-40 bg-black bg-opacity-60"></div>
               <div className="w-full relative  object-cover   md:h-[80vh] lg:h-[100vh] rounded-full ">
-                <img src={images1} alt="MMRA Images" className="w-full" />
+                <img src={images3} alt="MMRA Images" className="w-full" />
               </div>
             </div>
-            <div className="">
-              <div className=" w-full  ml-8  flex items-center h-[80vh] absolute">
+            <div className="pt-16 md:pt-12 md:py-0">
+              <div className=" w-full  ml-8  flex items-center h-[30vh] md:h-[80vh] absolute">
                 <div className="grid grid-cols-2">
-                  <div className=" z-50 text-white font-serif md:text-4xl lg:text-5xl font-bold drop-shadow-md text-left ">
-                    <p className="tracking-wider leading-relaxed">
+                  <div className="  z-50 text-white  text-base md:text-4xl lg:text-5xl font-bold drop-shadow-md text-left ">
+                    <p className="tracking-wide md:tracking-wider leading-relaxed">
                       Unleashing Robust Defense for your Data and Privacy
                     </p>
                   </div>
                 </div>
               </div>
-              <div className="md:h-[80vh] lg:h-[100vh] absolute w-full z-40 bg-black bg-opacity-60"></div>
+              <div className="h-[40vh] md:h-[80vh] lg:h-[100vh] absolute w-full z-40 bg-black bg-opacity-60"></div>
               <div className="w-full relative  object-cover   md:h-[80vh] lg:h-[100vh] rounded-full ">
                 <img src={images3} alt="MMRA Images" className="w-full" />
               </div>
             </div>
-            <div className="">
-              <div className=" w-full  ml-8  flex items-center h-[80vh] absolute">
+            <div className="pt-16 md:pt-12 md:py-0">
+              <div className=" w-full  ml-8  flex items-center h-[30vh] md:h-[80vh] absolute">
                 <div className="grid grid-cols-2">
-                  <div className=" z-50 text-white font-serif md:text-4xl lg:text-5xl font-bold drop-shadow-md text-left ">
-                    <p className="tracking-wider leading-relaxed">
+                  <div className=" z-50 text-white text-base md:text-4xl lg:text-5xl font-bold drop-shadow-md text-left ">
+                    <p className="tracking-wide md:tracking-wider leading-relaxed">
                       Your Trusted Partner for Cybersecurity and Data Protection
                     </p>
                   </div>
                 </div>
               </div>
-              <div className="md:h-[80vh] lg:h-[100vh] absolute w-full z-40 bg-black bg-opacity-60"></div>
+              <div className="h-[40vh] md:h-[80vh] lg:h-[100vh] absolute w-full z-40 bg-black bg-opacity-60"></div>
               <div className="w-full relative  object-cover   md:h-[80vh] lg:h-[100vh] rounded-full ">
                 <img src={images2} alt="MMRA Images" className="w-full" />
               </div>
@@ -97,7 +97,7 @@ function Index() {
         </div>
       </div>
 
-      <div className="mt-12 mx-8">
+      <div className="mt-8 md:mt-12 mx-2 md:mx-8">
         <div className="w-full grid md:grid-cols-2 lg:grid-cols-4 mt-4 gap-2 text-base  ">
           <div className="text-base rounded-2xl bg-primary text-white p-4 shadow-md">
             Qui laborum do tempor aliqua qui labore reprehenderit. Dolore velit
@@ -124,15 +124,15 @@ function Index() {
           </div>
         </div>
 
-        <div className="md:w-full lg:w-3/4 text-gray-700 leading-10  text-center text-3xl font-semibold  mx-auto italic mt-24">
+        <div className="md:w-full lg:w-3/4 text-gray-700 leading-6 md:leading-10  text-center text-lg md:text-3xl font-semibold  mx-auto italic md:mt-24 mt-12">
           "Data protection is a crucial human right in the digital era, not only
           to comply with laws but also to preserve privacy and give individuals
           authority over their personal information."
         </div>
 
         <Features />
-        <div className="w-full   py-4 my-24" id="act">
-          <div className="xl:w-3/4 mx-auto flex justify-between md:gap-2 lg:gap-4">
+        <div className="w-full   py-4 my-8 md:my-24" id="act">
+          <div className="xl:w-3/4 mx-auto md:flex md:justify-between md:gap-2 lg:gap-4">
             <div className="w-full px-4 flex items-center">
               <div className="text-left lg:text-base md:text-sm">
                 <div className="md:text-2xl lg:text-3xl font-semibold font-sans uppercase">
@@ -156,7 +156,7 @@ function Index() {
         </div>
 
         <div className="w-full  bg-primary py-4" id="tips">
-          <div className="xl:w-3/4 mx-auto flex justify-between md:gap-2 lg:gap-4">
+          <div className="xl:w-3/4 mx-auto md:flex md:justify-between md:gap-2 lg:gap-4">
             <div className="w-full flex justify-center">
               <img src={phone} alt="MMRA Images" />
             </div>
@@ -179,8 +179,8 @@ function Index() {
           </div>
         </div>
 
-        <div className="w-full   py-4 my-24" id="news">
-          <div className="xl:w-3/4 mx-auto flex justify-between md:gap-2 lg:gap-4">
+        <div className="w-full   py-4 my-12 md:my-24" id="news">
+          <div className="xl:w-3/4 mx-auto md:flex md:justify-between md:gap-2 lg:gap-4">
             <div className="w-full px-4 flex items-center">
               <div className="text-left lg:text-base md:text-sm">
                 <div className="md:text-2xl lg:text-3xl font-semibold font-sans uppercase">
