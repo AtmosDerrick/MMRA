@@ -6,11 +6,13 @@ import windowsStore from "../images/windowsstore.png";
 
 function DownloadPage() {
   return (
-    <div className="h-auto  pt-16 w-full md :w-3/4 mx-auto mb-8">
+    <div className="h-auto  pt-16 w-full md:w-3/4 mx-auto mb-8">
       <div className="px-4  md:px-0 md:flex md:justify-between h-auto md:h-[40vh] items-center mt-12 md:mt-0">
         <div className="text-3xl font-bold text-primary md:flex md:justify-between text-justify uppercase w-full ">
-          <div> Download</div>
-          <div className=" text-primary  py-1 rounded-md px-2">MMRA</div>
+          <div>
+            {" "}
+            Download <span className="text-orange-600">MMRA</span>
+          </div>
         </div>
 
         <div className="w-full text-left text-base hidden md:inline-block">

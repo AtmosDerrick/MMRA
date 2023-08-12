@@ -68,7 +68,9 @@ function Index() {
                 <div className="grid grid-cols-2">
                   <div className="  z-50 text-white  text-base md:text-4xl lg:text-5xl font-bold drop-shadow-md text-left ">
                     <p className="tracking-wide md:tracking-wider leading-relaxed">
-                      Unleashing Robust Defense for your Data and Privacy
+                      Explore a comprehensive collection of relevant laws and
+                      regulations governing data protection, cybersecurity and
+                      electronic transactions.
                     </p>
                   </div>
                 </div>
@@ -100,8 +102,10 @@ function Index() {
       <div className="mt-8 md:mt-12 mx-2 md:mx-8">
         <div className="w-full grid md:grid-cols-2 lg:grid-cols-4 mt-4 gap-2 text-base  ">
           <div className="text-base rounded-2xl bg-primary text-white p-4 shadow-md">
-            Qui laborum do tempor aliqua qui labore reprehenderit. Dolore velit
-            sint officia do ut consectetur laborum officia. Laborum ea ea quis
+            Hello bruh what the fuck are you doing, I needyou to get the fuck
+            away from life. The next time a see you it will be your funeral ui
+            laborum do tempor aliqua qui labore reprehenderit. Dolore velit sint
+            officia do ut consectetur laborum officia. Laborum ea ea quis
           </div>
 
           <div className="text-base rounded-2xl bg-primary text-white p-4 shadow-md">
@@ -138,11 +142,11 @@ function Index() {
                 <div className="md:text-2xl lg:text-3xl font-semibold font-sans uppercase">
                   Learn the laws governing cyber Security And Data Protection
                 </div>
-                Quis laboris nostrud voluptate anim sit. Enim incididunt ullamco
-                laborum aliqua ad nisi mollit in. Labore enim elit irure veniam
-                in veniam incididunt. In sunt ipsum occaecat consequat commodo
-                adipisicing enim. Laborum ex eu fugiat proident. Minim ea ad
-                culpa cupidatat in nulla. Incididunt nulla duis velit laboris
+                We aim to empower users with knowledge, practical advice, latest
+                information and laws in the realm of data protection,
+                cybersecurity and electronic transactions. Our goal is to help
+                you navigate the digital landscape with confidence and safeguard
+                your digital assets.
                 <br></br>
                 <a className="underline italic font-medium py-2 text-primary">
                   Learn More <i class="fa-solid fa-chevron-right"></i>
@@ -165,11 +169,11 @@ function Index() {
                 <div className="md:text-2xl lg:text-3xl font-semibold font-sans uppercase text-gray-100">
                   Get some Tips on your Data Protection
                 </div>
-                Quis laboris nostrud voluptate anim sit. Enim incididunt ullamco
-                laborum aliqua ad nisi mollit in. Labore enim elit irure veniam
-                in veniam incididunt. In sunt ipsum occaecat consequat commodo
-                adipisicing enim. Laborum ex eu fugiat proident. Minim ea ad
-                culpa cupidatat in nulla. Incididunt nulla duis velit laboris
+                Learn about the importance of compliance with data protection
+                laws for both individuals and organizations. Empower yourself
+                with knowledge, understand your rights and discover practical
+                steps to safeguard your data. Let’s navigate the intricate
+                landscape of data protection and foster a secure digital future.
                 <br></br>
                 <a className="underline italic font-medium py-2 text-gray-100">
                   Learn More <i class="fa-solid fa-chevron-right"></i>
@@ -187,11 +191,10 @@ function Index() {
                   Read the latest new on cyber Security and Data Protection
                   Rights
                 </div>
-                Quis laboris nostrud voluptate anim sit. Enim incididunt ullamco
-                laborum aliqua ad nisi mollit in. Labore enim elit irure veniam
-                in veniam incididunt. In sunt ipsum occaecat consequat commodo
-                adipisicing enim. Laborum ex eu fugiat proident. Minim ea ad
-                culpa cupidatat in nulla. Incididunt nulla duis velit laboris
+                Committed to providing you with the most relevant and up-to-date
+                news on cybersecurity and data protection. By staying informed,
+                you can proactively protect yourself, your organization and your
+                digital assets from evolving threats.
                 <br></br>
                 <a className="underline italic font-medium py-2 text-primary">
                   Learn More <i class="fa-solid fa-chevron-right"></i>
